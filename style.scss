@@ -1,3 +1,13 @@
+body{
+  background-image: url("cloud.jpeg");
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin:0 auto;
+  color: white;
+}
+ 
 footer {
     background: #16222A;
     background: -webkit-linear-gradient(59deg, #3A6073, #16222A);
@@ -66,5 +76,3 @@ nav a{
     font-family:'Times New Roman', Times, serif
    
 }
-
- 
