@@ -133,6 +133,9 @@ var temp=data.current.temp_c;
 
 //Getting information for searched city
 $('#search').click(function () {
+  $('#carouselElem').hide()
+  $('#cards1').hide()
+  $('#cards2').hide()
   city = $('#city').val()
   var data = '';
   $.ajax({
@@ -242,6 +245,9 @@ $('#search').click(function () {
 //to find current location
 
 $('.location').click(function () {
+  $('#carouselElem').hide()
+  $('#cards1').hide()
+  $('#cards2').hide()
   var current_city = ''
   var data = "";
   var atmdata = ''
